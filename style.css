@@ -278,3 +278,132 @@
   width: 100%;
   height: 100%;
 }
+
+/* !----------------------------- */
+/* ? deal section style here */
+/* !----------------------------- */
+
+.instagram-section .instagram-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-section .instagram-header > h1 {
+  color: #272727;
+  font: normal normal 800 40px / normal 'Lato';
+}
+
+.instagram-section .instagram-header > p {
+  color: rgba(39, 39, 39, 0.6);
+  font: normal normal 400 18px/30px 'Lato';
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.instagram-section .instagram-items {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.instagram-section .instagram-items .instagram-item > .instagram-img > img {
+  border-radius: 22px;
+}
+
+/* !----------------------------- */
+/* ? latest  section style here */
+/* !----------------------------- */
+
+.latest-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 100px 0px;
+  padding: 140px 0px;
+}
+
+.latest-section .latest-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-section .latest-header > h1 {
+  color: #272727;
+  font: normal normal 800 40px / normal 'Lato';
+}
+
+.latest-section .latest-header > p {
+  color: rgba(39, 39, 39, 0.6);
+  font: normal normal 400 18px/30px 'Lato';
+  padding: 30px 0px;
+}
+
+.latest-section .latest-input > input {
+  width: 800px;
+  padding: 20px 20px;
+  border-radius: 12px;
+}
+
+.latest-section .latest-input > input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font: normal normal 400 16px / normal 'Lato';
+}
+
+.latest-section .latest-input > button {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 15px 43px;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: capitalize;
+  font: normal normal 700 17px/20px 'Lato';
+  margin-left: 10px;
+}
+
+/* !----------------------------- */
+/* ? footer  section style here */
+/* !----------------------------- */
+
+.footer-section {
+  background-color: #111010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.footer-section h1 {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px;
+}
+
+.footer-section span {
+  color: #e55473;
+}
+
+.footer-section > p {
+  color: rgba(255, 255, 255, 0.9);
+  font: normal normal 400 18px/30px 'Lato';
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.footer-section small {
+  color: rgba(255, 255, 255, 0.4);
+  font: normal normal 400 16px / normal 'Lato';
+  text-align: center;
+  padding: 20px 0px;
+}
