@@ -179,6 +179,56 @@
 
 /* !-------------------- */
 
+.decoration-section {
+  margin: 200px 0px;
+}
+.decoration-section > .decoration-item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.decoration-section > h1 {
+  color: #272727;
+  font: normal normal 800 40px / normal 'Lato';
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.decoration-section > h1::after {
+  position: absolute;
+  content: '';
+  border: 1px solid black;
+  bottom: -50%;
+  left: 44%;
+  width: 250px;
+}
+
+.decoration-section > .decoration-item > .left-decoration {
+  display: flex;
+}
+
+.decoration-section > .decoration-item > .left-decoration > p {
+  color: rgba(39, 39, 39, 0.6);
+  font: normal normal 400 18px/ 40px 'Lato';
+}
+
+.decoration-section > .decoration-item > .right-decoration > .img {
+  width: 310px;
+  height: 428px;
+}
+
+.decoration-section > .decoration-item > .right-decoration > .img > img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* !-------------------- */
+
 .client-section {
   display: flex;
   justify-content: center;
